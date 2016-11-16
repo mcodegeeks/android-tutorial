@@ -9,12 +9,98 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <!-- T01. HelloWorld -->
+        <activity android:name=".T01_HelloWold.T01MainActivity" />
+
+        <!-- T02. Activity -->
+        <activity android:name=".T02_Activity.T02MainActivity" />
+
+        <!-- T03. Service -->
+        <activity android:name=".T03_Service.T03MainActivity" />
+
+        <service android:name=".T03_Service.MyService" />
+
+        <!-- T04. Broadcast Receiver -->
+        <activity android:name=".T04_BroadcastReceiver.T04MainActivity" />
+
+        <receiver android:name=".T04_BroadcastReceiver.MyReceiver">
+            <intent-filter>
+                <action android:name="com.mcodegeeks.tutorial.CUSTOM_INTENT" />
+
+                <!-- Sticky broadcast containing the charging state, level, and other information about the battery. -->
+                <!-- <action android:name="android.intent.action.BATTERY_CHANGED" /> -->
+
+
+                <!-- Indicates low battery condition on the device. -->
+                <!-- <action android:name="android.intent.action.BATTERY_LOW" /> -->
+
+
+                <!-- Indicates the battery is now okay after being low. -->
+                <!-- <action android:name="android.intent.action.BATTERY_OKAY" /> -->
+
+
+                <!-- This is broadcast once, after the system has finished booting. -->
+                <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+
+
+                <!-- Show activity for reporting a bug. -->
+                <!-- <action android:name="android.intent.action.BUG_REPORT" /> -->
+
+
+                <!-- Perform a call to someone specified by the data. -->
+                <!-- <action android:name="android.intent.action.CALL" /> -->
+
+
+                <!-- The user pressed the "call" button to go to the dialer or other appropriate UI for placing a call. -->
+                <!-- <action android:name="android.intent.action.CALL_BUTTON" /> -->
+
+
+                <!-- The date has changed. -->
+                <!-- <action android:name="android.intent.action.DATE_CHANGED" /> -->
+
+
+                <!-- Have the device reboot. -->
+                <!-- <action android:name="android.intent.action.REBOOT" /> -->
+            </intent-filter>
+        </receiver>
+
+        <!-- T05. Content Provider -->
+        <activity android:name=".T05_ContentProvider.T05MainActivity" />
+
+        <provider
+            android:name=".T05_ContentProvider.StudentContentProvider"
+            android:authorities="com.mcodegeeks.tutorial.StudentContentProvider" />
+
+        <!-- T06. Fragment -->
+        <activity android:name=".T06_Fragment.T06MainActivity" />
+
+        <!-- T07. Intent -->
+        <activity android:name=".T07_Intent.T07MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- T08. Event Handling -->
+        <activity android:name=".T08_EventHandling.T08MainActivity" />
+
+        <!-- T09. Drag and Drop -->
+        <activity android:name=".T09_DragAndDrop.T09MainActivity" />
+
+        <!-- T10. Notification -->
+        <activity android:name=".T10_Notification.T10MainActivity" />
+        <activity android:name=".T07_Intent.RatingActivity"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,52 @@
 <resources>
-    <string name="app_name">Tutorial</string>
+    <string name="app_name">Android Tutorial</string>
+    <string name="see_log">See message in logcat</string>
+
+    <!-- T01: Hello World -->
+    <string name="t01_title">T01. Hello World</string>
+    <string name="hello_world">Hello World!</string>
+
+    <!-- T02. Activity -->
+    <string name="t02_title">T02. Activity</string>
+
+    <!-- T03. Service -->
+    <string name="t03_title">T03. Service</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+
+    <!-- T04. Broadcast -->
+    <string name="t04_title">T04. Broadcast Receiver</string>
+    <string name="send_broadcast">Send Broadcast</string>
+
+    <!-- T05. Broadcast -->
+    <string name="t05_title">T05. Content Provider</string>
+    <string name="add_name">Add Name</string>
+    <string name="retrive_student">Retrive Student</string>
+    <string name="name">Name</string>
+    <string name="grade">Grade</string>
+
+    <!-- T06. Fragment -->
+    <string name="t06_title">T06. Fragment</string>
+    <string name="portrait_fragment">Portrait Fragment</string>
+    <string name="landscape_fragment">Landscape Fragment</string>
+
+    <!-- T07. Intent -->
+    <string name="t07_title">T07. Intent and Filter</string>
+    <string name="start_browser">Start Browser</string>
+    <string name="start_phone">Start Phone</string>
+    <string name="show_rating">Show Rating</string>
+    <string name="send_text">Send Text</string>
+
+    <!-- T08. Event Handling -->
+    <string name="t08_title">T08. Event Handling</string>
+    <string name="text_example">Text Example</string>
+    <string name="small_font">Small Font</string>
+    <string name="large_font">Large Font</string>
+
+    <!-- T09. Drag and Drop -->
+    <string name="t09_title">T09. Drag and Drop</string>
+
+    <!-- T10. Notification -->
+    <string name="t10_title">T10. Notification</string>
+    <string name="add_notification">Add Notification</string>
 </resources>
