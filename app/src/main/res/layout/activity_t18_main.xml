@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_t18_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mcodegeeks.tutorial.T18_Clipboard.T18MainActivity">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t18_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyEditText"
+        android:hint="Copy Text"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pasteEditText"
+        android:hint="Paste Text"
+        android:layout_below="@+id/copyEditText"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy Text"
+        android:id="@+id/copyButton"
+        android:layout_below="@+id/pasteEditText"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView"
+        android:onClick="copyText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paste Text"
+        android:id="@+id/pasteButton"
+        android:layout_below="@+id/copyButton"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView"
+        android:onClick="pasteText" />
+
+</RelativeLayout>

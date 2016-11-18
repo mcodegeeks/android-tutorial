@@ -49,4 +49,161 @@
     <!-- T10. Notification -->
     <string name="t10_title">T10. Notification</string>
     <string name="add_notification">Add Notification</string>
+
+    <!-- T11. Location Based Service -->
+    <string name="t11_title">T11. Location Based Service</string>
+    <string name="get_location">Get Location</string>
+
+    <!-- T12. Sending Email -->
+    <string name="t12_title">T12. Sending Email</string>
+    <string name="send_email">Send Email</string>
+
+    <!-- T13. Alert Dialog -->
+    <string name="t13_title">T13. Alert Dialog</string>
+    <string name="alert_dialog">Alert Dialog</string>
+
+    <!-- T14. Animation -->
+    <string name="t14_title">T14. Animation</string>
+    <string name="clockwise">Clockwise</string>
+    <string name="zoom">Zoom</string>
+    <string name="fade">Fade</string>
+    <string name="blink">Blink</string>
+    <string name="move">Move</string>
+    <string name="slide">Slide</string>
+
+    <!-- T15. Auto Complete -->
+    <string name="t15_title">T15. Auto Complete</string>
+
+    <!-- T16. Bluetooth -->
+    <string name="t16_title">T16. Bluetooth</string>
+
+    <!-- T17. Camera -->
+    <string name="t17_title">T17. Camera</string>
+
+    <!-- T18. Clipboard -->
+    <string name="t18_title">T18. Clipboard</string>
+
+    <!-- T19. Custom Font -->
+    <string name="t19_title">T19. Custom Font</string>
+
+    <!-- T20. Data Backup -->
+    <string name="t20_title">T20. Data Backup</string>
+
+    <!-- T21. Facebook Integration -->
+    <string name="t21_title">T21. Facebook Integration</string>
+
+    <!-- T22. Gesture -->
+    <string name="t22_title">T22. Gesture</string>
+
+    <!-- T23. Google Map -->
+    <string name="t23_title">T23. Google Map</string>
+
+    <!-- T24. Image Effect -->
+    <string name="t24_title">T24. Image Effect</string>
+
+    <!-- T25. Image Switcher -->
+    <string name="t25_title">T25. Image Switcher</string>
+
+    <!-- T26. Internal Storage -->
+    <string name="t26_title">T26. Internal Storage</string>
+
+    <!-- T27. Jet Player -->
+    <string name="t27_title">T27. Jet Player</string>
+
+    <!-- T28. JSON Parser -->
+    <string name="t28_title">T28. JSON Parser</string>
+
+    <!-- T29. Linkedin Integration -->
+    <string name="t29_title">T29. Linkedin Integration</string>
+
+    <!-- T30. Localization -->
+    <string name="t30_title">T30. Localization</string>
+
+    <!-- T31. Loading Spinner -->
+    <string name="t31_title">T31. Loading Spinner</string>
+
+    <!-- T32. Login Screen -->
+    <string name="t32_title">T32. Login Screen</string>
+
+    <!-- T33. Media Player -->
+    <string name="t33_title">T33. Media Player</string>
+
+    <!-- T34. Multitouch -->
+    <string name="t34_title">T34. Multitouch</string>
+
+    <!-- T35. Navigation -->
+    <string name="t35_title">T35. Navigation</string>
+
+    <!-- T36. Network Connection -->
+    <string name="t36_title">T36. Network Connection</string>
+
+    <!-- T37. NFC Guide -->
+    <string name="t37_title">T37. NFC Guide</string>
+
+    <!-- T38. PHP/MySQL -->
+    <string name="t38_title">T38. PHP/MySQL</string>
+
+    <!-- T39. Progress Bar -->
+    <string name="t39_title">T39. Progress Bar</string>
+
+    <!-- T40. Progress Circle -->
+    <string name="t40_title">T40. Progress Circle</string>
+
+    <!-- T41. Push Notification -->
+    <string name="t41_title">T41. Push Notification</string>
+
+    <!-- T42. Render Script -->
+    <string name="t42_title">T42. Render Script</string>
+
+    <!-- T43. RSS Reader -->
+    <string name="t43_title">T43. RSS Reader</string>
+
+    <!-- T44. Screen Cast -->
+    <string name="t44_title">T44. Screen Cast</string>
+
+    <!-- T45. Sensor -->
+    <string name="t45_title">T45. Sensor</string>
+
+    <!-- T46. Session Management -->
+    <string name="t46_title">T46. Session Management</string>
+
+    <!-- T47. Shared Preference -->
+    <string name="t47_title">T47. Shared Preference</string>
+
+    <!-- T48. SIP Protocol -->
+    <string name="t48_title">T48. SIP Protocol</string>
+
+    <!-- T49. Spelling Checker -->
+    <string name="t49_title">T49. Spelling Checker</string>
+
+    <!-- T50. SQLite Database -->
+    <string name="t50_title">T50. SQLite Database</string>
+
+    <!-- T51. Text to Speech -->
+    <string name="t51_title">T51. Text to Speech</string>
+
+    <!-- T52. Texture View -->
+    <string name="t52_title">T52. Texture View</string>
+
+    <!-- T53. Twitter Integration -->
+    <string name="t53_title">T53. Twitter Integration</string>
+
+    <!-- T54. WebView Layout -->
+    <string name="t54_title">T54. WebView Layout</string>
+
+    <!-- T55. Wi-Fi -->
+    <string name="t55_title">T55. Wi-Fi</string>
+
+    <!-- T56. Widget -->
+    <string name="t56_title">T56. Widget</string>
+
+    <!-- T57. XML Parser -->
+    <string name="t57_title">T57. XML Parser</string>
+
+    <!-- T58. Audio Capture -->
+    <string name="t58_title">T58. Audio Capture</string>
+
+    <!-- T59. Audio Manager -->
+    <string name="t59_title">T59. Audio Manager</string>
+
 </resources>
