@@ -19,4 +19,25 @@
         android:layout_centerHorizontal="true"
         android:textSize="20dp" />
 
+
+
+    <FrameLayout
+        android:id="@+id/location_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        tools:context="com.mcodegeeks.tutorial.T23_GoogleMap.MapFragment" />
+
+
+    <!--
+        <FrameLayout
+            android:id="@+id/location_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+    -->
+
 </RelativeLayout>

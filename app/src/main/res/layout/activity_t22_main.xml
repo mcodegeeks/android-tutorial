@@ -19,4 +19,18 @@
         android:layout_centerHorizontal="true"
         android:textSize="20dp" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/icon_geeky"
+        android:scaleType="matrix"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/titleView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

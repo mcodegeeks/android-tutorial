@@ -206,4 +206,8 @@
     <!-- T59. Audio Manager -->
     <string name="t59_title">T59. Audio Manager</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>
