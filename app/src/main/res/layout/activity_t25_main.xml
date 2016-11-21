@@ -19,4 +19,34 @@
         android:layout_centerHorizontal="true"
         android:textSize="20dp" />
 
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+    </ImageSwitcher>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:id="@+id/prevButton"
+        android:layout_below="@+id/imageSwitcher"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView"
+        android:onClick="prev"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextButton"
+        android:layout_below="@+id/imageSwitcher"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView"
+        android:onClick="next"/>
+
 </RelativeLayout>

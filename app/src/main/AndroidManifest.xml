@@ -150,40 +150,28 @@
         <activity android:name=".T22_Gesture.T22MainActivity" />
 
         <!-- T23. Google Map -->
-        <activity android:name=".T23_GoogleMap.T23MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".T23_GoogleMap.T23MainActivity" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDKymeBXNeiFWY5jRUejv6zItpmr2MVyQ0" />
 
         <!-- T24. Image Effect -->
-        <activity android:name=".T24_ImageEffect.T24MainActivity">
-        </activity>
+        <activity android:name=".T24_ImageEffect.T24MainActivity" />
 
         <!-- T25. Image Switcher -->
-        <activity android:name=".T25_ImageSwitcher.T25MainActivity">
-        </activity>
+        <activity android:name=".T25_ImageSwitcher.T25MainActivity" />
 
         <!-- T26. Internal Storage -->
-        <activity android:name=".T26_InternalStorage.T26MainActivity">
-        </activity>
+        <activity android:name=".T26_InternalStorage.T26MainActivity" />
 
         <!-- T27. Jet Player -->
-        <activity android:name=".T27_JetPlayer.T27MainActivity">
-        </activity>
+        <activity android:name=".T27_JetPlayer.T27MainActivity" />
 
         <!-- T28. JSON Parser -->
-        <activity android:name=".T28_JSONParser.T28MainActivity">
-        </activity>
+        <activity android:name=".T28_JSONParser.T28MainActivity" />
 
         <!-- T29. Linkedin Integration -->
-        <activity android:name=".T29_Linkedin.T29MainActivity">
-        </activity>
+        <activity android:name=".T29_Linkedin.T29MainActivity" />
 
         <!-- T30. Localization -->
         <activity android:name=".T30_Localization.T30MainActivity">
@@ -191,6 +179,11 @@
 
         <!-- T31. Loading Spinner -->
         <activity android:name=".T31_LoadingSpinner.T31MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <!-- T32. Login Screen -->

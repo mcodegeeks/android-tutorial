@@ -19,4 +19,48 @@
         android:layout_centerHorizontal="true"
         android:textSize="20dp" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Enter Text"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:id="@+id/loadButton"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView"
+        android:onClick="load"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveButton"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/titleView"
+        android:layout_alignEnd="@+id/titleView"
+        android:onClick="save"/>
+
 </RelativeLayout>
